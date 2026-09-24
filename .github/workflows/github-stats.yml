@@ -1,0 +1,64 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=bs-bhaskar&theme=dark&hide_border=false&include_all_commits=true&count_private=false&show_icons=true
+          path: profile/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=bs-bhaskar&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact&langs_count=6
+          path: profile/top-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check generated files
+        run: |
+          echo "Checking generated files..."
+
+          if [ -f profile/github-stats.svg ]; then
+            echo "✅ github-stats.svg FOUND"
+            ls -lh profile/github-stats.svg
+          else
+            echo "❌ github-stats.svg NOT FOUND"
+            exit 1
+          fi
+
+          if [ -f profile/top-languages.svg ]; then
+            echo "✅ top-languages.svg FOUND"
+            ls -lh profile/top-languages.svg
+          else
+            echo "❌ top-languages.svg NOT FOUND"
+            exit 1
+          fi
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          git diff --cached --quiet || git commit -m "Update GitHub stats cards"
+
+          git push
