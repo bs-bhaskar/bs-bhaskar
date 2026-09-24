@@ -1,20 +1,20 @@
 # 💫 Hi 👋, I'm Bhaskar Yogi
-**A passionate MERN Developer || Software Engineer || BCA Student from India**
+**MERN Developer || Software Engineer || BCA Student from India**
 
-Email Me 👉 ✉️ **shardayogi60@gmail.com** For Collaboration/Project or Anything Else. 😊😊
+📧 **Open to collaborations, projects, and interesting tech opportunities:**  
+**shardayogi60@gmail.com**
 
-- 🔭 **I’m currently working on:** NovaChat
-- 🌱 **I’m currently learning:** React.js, Node.js, MongoDB, Express.js, TailwindCSS
+- 🔭 **Currently working on:** NovaChat
+- 🌱 **Currently learning:** Advanced React, Node.js & Full-Stack Development
 - 🧠 **Interested in:** DevOps, AI/ML, GenAI & DSA
-- 👯 **I’m looking to collaborate on:** smart-lms
-- 🤝 **Open to:** Collaborating on interesting web development & AI projects
-- 💬 **Ask me about:** Collaboration, Tech Support
-- 📫 **How to reach me:** shardayogi60@gmail.com
-- ⚡ **Fun fact:** I Love Tech and Tech Love Me
+- 🤝 **Open to:** Web Development, AI & Open Source collaborations
+- 💬 **Ask me about:** MERN Development, React & Full-Stack Projects
+- 📫 **Reach me:** shardayogi60@gmail.com
+- ⚡ **Fun fact:** I Love Tech and Tech Loves Me
 
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/HkcMZgTbN) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/bhaskar-yogi-180b66325) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@@shardayogi60) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/27080993/bhaskar-yogi) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Bhaskar_yogi01) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shardayogi60@gmail.com) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/HkcMZgTbN) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/bhaskar-yogi-180b66325) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@shardayogi60) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/27080993/bhaskar-yogi) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@Bhaskar_yogi01) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shardayogi60@gmail.com)
 
 <!-- Snake Game Repo View -->
 
@@ -53,8 +53,11 @@ Email Me 👉 ✉️ **shardayogi60@gmail.com** For Collaboration/Project or Any
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 🔝 Top Contributed Repo
-![Top Contributed Repositories](https://github-contributor-stats.vercel.app/api?username=bs-bhaskar&limit=5&theme=dark)
+## 🔝 Top Contributed Repositories
+
+<p align="center">
+  <img src="./contributor-stats.svg" alt="Top Contributed Repositories">
+</p>
 
 ---
 
@@ -63,13 +66,12 @@ Email Me 👉 ✉️ **shardayogi60@gmail.com** For Collaboration/Project or Any
 
 ---
 
-🔥 **Want to Collaborate?**  
-If you’re interested in **Mobile App Development, Open Source Projects, or MERN Development**, let’s connect and build the next-gen apps together! 🚀 
+🔥 **Want to Collaborate?**
+
+If you’re interested in **MERN Development, AI Projects, or Open Source**, let’s connect and build something awesome together! 🚀 
 
 ---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=bs-bhaskar&label=PROFILE+VIEWS&color=0e75b6&style=flat-square" alt="Profile Views" />
 </p>
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
