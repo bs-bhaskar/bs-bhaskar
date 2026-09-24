@@ -1,0 +1,39 @@
+name: Update Contributor Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Contributor Stats
+        uses: HwangTaehyun/github-contributor-stats/action@main
+        env:
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          username: bs-bhaskar
+          output-file: profile/contributor-stats.svg
+          combine-all-yearly-contributions: "true"
+          hide-contributor-rank: "false"
+          order-by: contributions
+          limit: "5"
+          theme: dark
+          rate-limit-delay-ms: "100"
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/contributor-stats.svg
+          git diff --cached --quiet || git commit -m "Update contributor stats"
+          git push
