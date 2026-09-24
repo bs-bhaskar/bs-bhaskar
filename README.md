@@ -33,15 +33,84 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,tailwind,git,github,postman,vercel" />
 </p>
 
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 💬 NovaChat
+**Real-Time MERN Chat Application**
+
+A full-stack real-time messaging application built with the MERN stack, featuring secure authentication and real-time communication.
+
+**Tech Stack:**  
+`React.js` `Node.js` `Express.js` `MongoDB` `Socket.io` `JWT` `Cloudinary`
+
+🔗 [GitHub](https://github.com/bs-bhaskar/NovaChat.git)  
+🌐 [Live Demo](YOUR_NOVACHAT_LIVE_LINK)
+> 💡 **Currently Building:** NovaChat — continuously improving the real-time messaging experience and adding new features.
+
+</td>
+
+<td width="50%">
+
+### 🎓 Smart-LMS
+**Learning Management System**
+
+A full-stack LMS platform designed to manage courses, students, instructors and learning activities with an integrated AI-powered StudyBot.
+
+**Tech Stack:**  
+`React.js` `Node.js` `Express.js` `MongoDB` `JWT` `AI`
+
+🔗 [GitHub](https://github.com/bs-bhaskar/smart-lms.git)  
+🌐 [Live Demo](https://smart-lms-three.vercel.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🤖 QuickGPT
+**AI-Powered Chat Application**
+
+A ChatGPT-inspired full-stack application that integrates AI capabilities with a modern React interface.
+
+**Tech Stack:**  
+`React.js` `Node.js` `OpenAI` `MongoDB` `ImageKit`
+
+🔗 [GitHub](https://github.com/bs-bhaskar/QuickGPT.git)  
+🌐 [Live Demo](https://quick-gpt-xi-sable.vercel.app)
+
+</td>
+
+<td width="50%">
+
+### 🌐 Developer Portfolio
+**Personal Portfolio Website**
+
+A responsive portfolio website showcasing my projects, technical skills, experience and development journey.
+
+**Tech Stack:**  
+`React.js` `Tailwind CSS` `JavaScript` `Vercel`
+
+🔗 [GitHub](https://github.com/bs-bhaskar/react-tailwind-personal-portfolio.git)  
+🌐 [Live Demo](https://react-tailwind-personal-portfolio-rho.vercel.app)
+
+</td>
+</tr>
+</table>
+
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=bs-bhaskar&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="180" />
+  <img src="./profile/github-stats.svg" height="180" />
   <img src="https://streak-stats.demolab.com/?user=bs-bhaskar&theme=dark&hide_border=false" height="180" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=bs-bhaskar&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" height="180" />
+  <img src="./profile/top-languages.svg" height="180" />
 </p>
 
 ## 🏆 GitHub Trophies
