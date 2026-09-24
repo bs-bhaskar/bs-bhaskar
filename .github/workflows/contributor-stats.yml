@@ -29,6 +29,21 @@ jobs:
           limit: "5"
           theme: dark
 
+      - name: Check generated file
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files:"
+          ls -la
+          echo "Checking SVG:"
+          if [ -f contributor-stats.svg ]; then
+            echo "✅ contributor-stats.svg FOUND"
+            ls -lh contributor-stats.svg
+          else
+            echo "❌ contributor-stats.svg NOT FOUND"
+            exit 1
+          fi
+
       - name: Commit generated SVG
         run: |
           git config user.name "github-actions[bot]"
